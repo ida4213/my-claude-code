@@ -11,9 +11,14 @@
       "description": "Terraform IaC - plan, validate, and manage infrastructure"
     },
     "figma": {
-       "type": "http",
-       "url": "https://mcp.figma.com/mcp"
-     }
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    },
+    "drawio": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@drawio/mcp"]
+    }
   },
   "_comments": {
     "usage": "Copy this file to .mcp.json in the same directory",
