@@ -1,6 +1,5 @@
 {
   "mcpServers": {
-    
     "terraform": {
       "command": "docker",
       "args": [
