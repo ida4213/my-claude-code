@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "terraform": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "hashicorp/terraform-mcp-server"
+      ],
+      "description": "Terraform IaC - plan, validate, and manage infrastructure"
+    },
+    "figma": {
+       "type": "http",
+       "url": "https://mcp.figma.com/mcp"
+     }
+  },
+  "_comments": {
+    "usage": "Copy this file to .mcp.json in the same directory",
+    "env_vars": "Replace YOUR_*_HERE placeholders with your actual tokens",
+    "disabling": "Use disabledMcpServers array in project config to disable per-project",
+    "context_warning": "Keep under 10 MCPs enabled to preserve context window"
+  }
+}
