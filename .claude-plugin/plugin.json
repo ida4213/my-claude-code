@@ -1,8 +1,8 @@
 {
-  "name": "ida42",
+  "name": "my-tools",
   "version": "0.0.1",
-  "description": "This is a ida42's base tool set",
+  "description": "This is a ida.'s base tool set",
   "author": {
-    "name": "ida42"
+    "name": "ida."
   }
 }

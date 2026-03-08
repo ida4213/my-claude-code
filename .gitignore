@@ -21,5 +21,6 @@ Thumbs.db
 # Task files (Claude Code teams)
 tasks/
 
-# MCP config
+# Local MCP config (contains secrets)
 .mcp.json
+CLAUDE.md
