@@ -12,7 +12,7 @@ Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
     "my-tools": {
       "source": {
         "source": "github",
-        "repo": "izumida-ryo/my-claude-code"
+        "repo": "ida4213/my-claude-code"
       }
     }
   }
