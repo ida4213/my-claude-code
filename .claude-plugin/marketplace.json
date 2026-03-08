@@ -1,17 +1,17 @@
 {
   "name": "my-tools",
   "metadata": {
-    "description": "ida.'s marketplace",
+    "description": "ida4213's marketplace",
     "version": "0.0.1"
   },
   "owner": {
-    "name": "ida."
+    "name": "ida4213"
   },
   "plugins": [
     {
       "name": "my-tools",
       "source": "./",
-      "description": "This is a ida.'s base tool set"
+      "description": "This is a ida4213's tool set"
     }
   ]
 }
