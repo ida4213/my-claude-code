@@ -1,33 +1,47 @@
 # my-claude-code
 
-自分用の Claude Code 設定をまとめたリポジトリです。
+ida42's Claude Code Plugin Marketplace
 
-## ファイル構成
+## Installation
 
-| ファイル | 説明 |
-|---|---|
-| `.mcp.json.example` | MCP サーバー設定のサンプル |
+Add the marketplace to your Claude Code settings (`~/.config/claude/settings.json`):
 
-## セットアップ
-
-### MCP サーバー設定
-
-`.mcp.json.example` をコピーして `.mcp.json` を作成し、必要に応じて設定を編集します。
-
-```bash
-cp .mcp.json.example .mcp.json
+```json
+{
+  "plugin_marketplaces": [
+    "https://github.com/izumida-ryo/my-claude-code"
+  ]
+}
 ```
 
-`.mcp.json` は `.gitignore` に追加してシークレット情報を管理します。
+Install the plugin:
 
-### 利用可能な MCP サーバー（例）
+```bash
+claude plugin install ida42
+```
 
-| サーバー | 用途 |
-|---|---|
-| `terraform` | Terraform IaC の plan・validate・インフラ管理 |
-| `figma` | Figma デザインデータの参照 |
+## Directory Structure
 
-## 注意事項
+```
+my-claude-code/
+├── .claude-plugin/
+│   └── marketplace.json     # Marketplace manifest
+├── agents/                  # Agent definitions
+│   └── general-purpose.md
+├── skills/                  # Skill definitions
+│   └── commit-push/
+│       └── SKILL.md
+├── rules/                   # Rule definitions
+│   └── git-workflow.md
+└── mcp-configs/             # MCP server configuration samples
+```
 
-- MCP サーバーは有効にしすぎるとコンテキストウィンドウを圧迫します。10 個以内に抑えることを推奨します。
-- プロジェクト単位で無効化する場合は `disabledMcpServers` を使用します。
+## Agents
+
+### general-purpose
+General-purpose software engineering agent for implementation, debugging, refactoring, and code review.
+
+## Skills
+
+### `/commit-push`
+Commits staged changes and pushes to remote.
