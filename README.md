@@ -4,13 +4,18 @@ ida42's Claude Code Plugin Marketplace
 
 ## Installation
 
-Add the marketplace to your Claude Code settings (`~/.config/claude/settings.json`):
+Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
 
 ```json
 {
-  "plugin_marketplaces": [
-    "https://github.com/izumida-ryo/my-claude-code"
-  ]
+  "extraKnownMarketplaces": {
+    "ida42": {
+      "source": {
+        "source": "github",
+        "repo": "izumida-ryo/my-claude-code"
+      }
+    }
+  }
 }
 ```
 
