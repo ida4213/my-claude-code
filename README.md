@@ -1,6 +1,6 @@
 # my-claude-code
 
-ida.'s Claude Code Plugin Marketplace
+ida4213's Claude Code Plugin Marketplace
 
 ## Installation
 
