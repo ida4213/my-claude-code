@@ -1,0 +1,17 @@
+{
+  "name": "ida42",
+  "metadata": {
+    "description": "ida42's marketplace",
+    "version": "0.0.1"
+  },
+  "owner": {
+    "name": "ida42"
+  },
+  "plugins": [
+    {
+      "name": "ida42",
+      "source": "./",
+      "description": "This is a ida42's base tool set"
+    }
+  ]
+}
