@@ -1,6 +1,6 @@
 # my-claude-code
 
-ida42's Claude Code Plugin Marketplace
+ida.'s Claude Code Plugin Marketplace
 
 ## Installation
 
@@ -9,7 +9,7 @@ Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
 ```json
 {
   "extraKnownMarketplaces": {
-    "ida42": {
+    "my-tools": {
       "source": {
         "source": "github",
         "repo": "izumida-ryo/my-claude-code"
@@ -22,7 +22,7 @@ Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
 Install the plugin:
 
 ```bash
-claude plugin install ida42
+claude plugin install my-tools
 ```
 
 ## Directory Structure
