@@ -4,9 +4,11 @@ description: ステージ済みのコード変更をgit commitし、pushしま�
 model: haiku
 ---
 
-# Commit and Push Code Changes
+# コードの変更をコミットしてプッシュする
 
-# Instructions
+すべての出力・確認メッセージは日本語で行ってください。
+
+# 手順
 
 ### ステップ1: 現在の状態を確認
 
@@ -30,7 +32,7 @@ git commit -m "..."
 ```
 
 - `feat` / `fix` / `refactor` / `test` / `docs` / `chore`
-- subject は50文字以内、命令形、末尾ピリオドなし
+- subject は日本語、50文字以内、末尾ピリオドなし
 
 ### ステップ3: 確認
 

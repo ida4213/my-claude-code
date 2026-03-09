@@ -1,4 +1,4 @@
-# my-claude-code
+# my-claude-code-trial
 
 ida4213's Claude Code Plugin Marketplace
 
@@ -12,7 +12,7 @@ Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
     "my-tools": {
       "source": {
         "source": "github",
-        "repo": "ida4213/my-claude-code"
+        "repo": "ida4213/my-claude-code-trial"
       }
     }
   }
@@ -28,7 +28,7 @@ claude plugin install my-tools
 ## Directory Structure
 
 ```
-my-claude-code/
+my-claude-code-trial/
 ├── .claude-plugin/
 │   └── marketplace.json     # Marketplace manifest
 ├── agents/                  # Agent definitions
